@@ -114,7 +114,7 @@ module.exports.addEmployeeForm =  (req,res) => {
     });
 }
 
-
+//created new route for adding employee
 // route for adding employee
 module.exports.addEmployee = async(req,res,next) => {
     try {
