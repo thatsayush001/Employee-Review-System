@@ -20,7 +20,7 @@ module.exports.employee = async (req,res) => {
     // for all the feedback given to the employee by fellow employee
 
     let feedbackByOther = [];
-    const idofFeedbacks = req.user.feedbackByOthers;
+    const idofFeedbacks = req.user.feedbackByOthers;//id of feedbacks
 
     //to get list of all the assigned review
     
@@ -50,7 +50,7 @@ module.exports.employee = async (req,res) => {
 
             if(feedback){
                 // store the feedback in array
-                feedbackByOther.push(feedback);
+                feedbackByOther.push(feedback);//if feedback is found then push it in.
             }
             
         }
