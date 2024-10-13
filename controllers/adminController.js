@@ -120,14 +120,18 @@ module.exports.addEmployee = async(req,res,next) => {
     try {
 
         // getting new employee's data
+
         const {name,email,password,cnf_password} = req.body;
         // define the role for new employee
+
         const role = 'Employee';    
 
         // check whether there is already an employee with similar email address
+
         const userExist = await User.findOne({email});
 
         // if no employee found
+        
         if(!userExist){
 
             // match password and confirm password

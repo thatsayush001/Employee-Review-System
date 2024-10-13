@@ -7,19 +7,24 @@ const Feedback = require('../models/Feedback');
 
 
 // render the employee's dashboard
+
 // also show review assigned and feedback given to the employee
+
 module.exports.employee = async (req,res) => {
 
     // for all the reviews assign to employee by admin
+
     let employeeAssignedForReview = [];
     const idOfAssignReview = req.user.reviewAssigned;
 
     // for all the feedback given to the employee by fellow employee
+
     let feedbackByOther = [];
     const idofFeedbacks = req.user.feedbackByOthers;
 
 
-    // getting list of all the assign reviews
+    // getting list of all the assign review
+    
     if(idOfAssignReview.length > 0 ){
 
         for (let index = 0; index < idOfAssignReview.length; index++) {

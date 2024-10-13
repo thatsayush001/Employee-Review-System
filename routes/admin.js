@@ -71,14 +71,18 @@ router.post('/createEmployee',
             // controller for route
             adminController.addEmployee);
 
-//route for assigning review to an employee     
+//route for assigning review to an employee  
+
 // assign review to an employee
+
 router.post('/assignReview',
             // to check whether user is logged in or not
             passport.checkAuthentication,
             // to check whether the user is admin or not
+
             passport.isAdmin,
             // controller for route
+            
             adminController.assignReview);
 
 

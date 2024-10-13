@@ -84,8 +84,8 @@ passport.checkAuthentication =  function(req,res,next){
     return res.redirect('/');
 }
 
+//sending user data to local for view
 
-// sending user data to local for view
 passport.setAuthenticatedUser = function(req,res,next){
     // check if user is signed in or not
     // if user is signed in then sending current signed in user's data (req.user) to locals for views (res.local.user)
@@ -98,6 +98,7 @@ passport.setAuthenticatedUser = function(req,res,next){
 
 
 // checking whether the logged in user is admin or not
+
 passport.isAdmin = function(req,res,next){
     if(req.user.role === 'Admin'){
         return next();

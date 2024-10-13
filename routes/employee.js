@@ -8,7 +8,7 @@ const router = express.Router();
 // passport for authentication
 const passport = require('passport');
 
-// controller
+// controller for employee
 const employeeController = require('../controllers/employeeController');
 
 
