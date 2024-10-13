@@ -1,11 +1,12 @@
 
 // user's model (database)
+
 const User = require('../models/User');
 
 // feedback's model (database)
 const Feedback = require('../models/Feedback');
 
-// for password encryption
+// encryption of password
 const bcrypt = require('bcryptjs');
 
 
@@ -131,7 +132,7 @@ module.exports.addEmployee = async(req,res,next) => {
         const userExist = await User.findOne({email});
 
         // if no employee found
-        
+
         if(!userExist){
 
             // match password and confirm password

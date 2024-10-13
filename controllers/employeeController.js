@@ -22,9 +22,9 @@ module.exports.employee = async (req,res) => {
     let feedbackByOther = [];
     const idofFeedbacks = req.user.feedbackByOthers;
 
-
-    // getting list of all the assign review
+    //to get list of all the assigned review
     
+
     if(idOfAssignReview.length > 0 ){
 
         for (let index = 0; index < idOfAssignReview.length; index++) {
