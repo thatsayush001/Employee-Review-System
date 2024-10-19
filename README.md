@@ -4,16 +4,20 @@
 
 # ScreenShots:
   ## Login page:
-  ![emp-2](https://drive.google.com/file/d/1-r3i246dvMDjfupoA2YujSwt9q9bt6kq/view?usp=drive_link)
+  ![emp-2](https://drive.google.com/uc?export=view&id=1-r3i246dvMDjfupoA2YujSwt9q9bt6kq
+  )
 
   ## Admin Dashboard:
-  ![emp-1](https://drive.google.com/file/d/1-r3i246dvMDjfupoA2YujSwt9q9bt6kq/view?usp=drive_link)
+  ![emp-1](https://drive.google.com/uc?export=view&id=1-r3i246dvMDjfupoA2YujSwt9q9bt6kq
+  )
 
   ## Admin can update and view all reviews of an employee:
-  ![emp-4](https://drive.google.com/file/d/1lNP7wzIjdtKyfg7KH50S0x3Vqi6SBwGo/view?usp=drive_link)
+  ![emp-4](https://drive.google.com/uc?export=view&id=1lNP7wzIjdtKyfg7KH50S0x3Vqi6SBwGo
+  )
 
   ## Employee Dashboard:
-  ![emp-3](https://drive.google.com/file/d/108y0xBMsnCR1kNaeZaDjKx0I9w_KWlCF/view?usp=drive_link)
+  ![emp-3](https://drive.google.com/uc?export=view&id=108y0xBMsnCR1kNaeZaDjKx0I9w_KWlCF
+  )
 
 # Installation and Run 
   Follow these steps:
